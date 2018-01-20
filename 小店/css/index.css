@@ -1,0 +1,83 @@
+#header{
+    background: url("../img/banner.jpg") no-repeat center;
+    height: 600px;
+
+}
+#top{
+    height: 100px;
+}
+#header img{
+    vertical-align: middle;
+}
+h1, #cart a{
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+#login a{
+    color: white;
+    line-height: 100px;
+}
+.float{
+    float: left;
+    width: 380px;
+    display: block;
+    height: 100px;
+    line-height: 100px;
+}
+#login:hover{
+    text-decoration: underline;
+}
+#cart{
+    width: 280px;
+    height: 50px;
+    cursor: pointer;
+    float: right;
+    margin-top: 25px;
+    display: block;
+}
+p{
+    background: black;
+    opacity: 0.5;
+    line-height: 50px;
+    text-align: center;
+}
+#nav li{
+    float: left;
+    background: #fa558f;
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+#nav a{
+    color: white;
+}
+#nav .selected{
+    background: #3c3b3b;
+}
+#nav #submenu{
+    width: 1140px;
+    height: 300px;
+    background: white;
+    display: none;
+    margin-left: -190px;
+}
+#makeup:hover #submenu{
+    display: block;
+}
+#nav li:hover{
+    background: #3c3b3b;
+}
+
+
+
+
+
+
+
+
+
+
+

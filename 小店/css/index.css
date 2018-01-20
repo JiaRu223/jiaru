@@ -18,6 +18,17 @@ h1, #cart a{
     color: white;
     line-height: 100px;
 }
+#top p{
+    color: white;
+    cursor: pointer;
+}
+.wrapper span{
+    color: white;
+    position: relative;
+    left: 950px;
+    bottom: 22px;
+    cursor: pointer;
+}
 .float{
     float: left;
     width: 380px;
@@ -28,19 +39,22 @@ h1, #cart a{
 #login:hover{
     text-decoration: underline;
 }
-#cart{
+.wrapper #cart{
     width: 280px;
     height: 50px;
     cursor: pointer;
     float: right;
     margin-top: 25px;
     display: block;
-}
-p{
     background: black;
     opacity: 0.5;
     line-height: 50px;
     text-align: center;
+}
+
+#nav{
+    position: relative;
+    top: -20px
 }
 #nav li{
     float: left;

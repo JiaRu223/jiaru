@@ -84,8 +84,87 @@ h1, #cart a{
 #nav li:hover{
     background: #3c3b3b;
 }
+/*sale开始*/
+#new{
+    height: 210px;
+}
+#sale{
+    margin-top: 56px;
+    margin-bottom: 90px;
+}
+.new-product{
+    background-repeat: no-repeat;
+    height: 210px;
+    width: 360px;
+    float: left;
+}
+.new-product h2 {
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+#one{
+    background-image: url("../img/bg1.jpg");
+    margin-right: 30px;
+}
+#two{
+    background-image: url("../img/bg2.jpg");
+    margin-right: 30px;
+}
+#three{
+    background-image: url("../img/bg3.jpg");
+}
+/*sale结束*/
 
+/*product结束*/
+.display{
+    width: 340px;
+    height: 440px;
+    border: 1px solid lightgray;
+    position: relative;
+    float: left;
+    margin-right: 38px;
+    margin-bottom: 30px;.
+}
+.display img{
+    width: 248px;
+    height: 248px;
+    float: left;
+    border: 1px solid lightgray;
+}
+.display .new{
+    color: white;
+    background: #fa558f;
+    position: absolute;
+    left: 302px;
+    bottom: 420px;
+}
+.add{
+    width: 340px;
+    height: 190px;
+    position: absolute;
+    top: 260px;
+    left: 10px;
+    /*background: lightgray;*/
+}
+.add input{
+    text-indent: 10px;
+    out-line: none;
+    height: 34px;
+    width: 154px;
+}
+.add button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background: orange;
+    border: none;
+    margin-top: 10px;
+}
 
+/*product结束*/
 
 
 

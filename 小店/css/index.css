@@ -1,7 +1,6 @@
 #header{
     background: url("../img/banner.jpg") no-repeat center;
     height: 600px;
-
 }
 #top{
     height: 100px;
@@ -82,7 +81,7 @@ h1, #cart a{
     display: block;
 }
 #nav li:hover{
-    background: #3c3b3b;
+    background-color: #3c3b3b;
 }
 /*sale开始*/
 #new{
@@ -146,7 +145,6 @@ h1, #cart a{
     position: absolute;
     top: 260px;
     left: 10px;
-    /*background: lightgray;*/
 }
 .add input{
     text-indent: 10px;
@@ -162,12 +160,51 @@ h1, #cart a{
     background: orange;
     border: none;
     margin-top: 10px;
+    cursor: pointer;
 }
-
 /*product结束*/
 
+/*service开始*/
+#service #problem{
+    margin-top: 1050px;
+    height: 400px;
+    background: url("../img/banner2.jpg") no-repeat;
+}
+#service .service-book{
+    margin-left: 110px;
+    position: relative;
+    top: 100px;
+    float: left;
+}
+#service .service-book li{
+    color: white;
+    list-style: disc;
+    margin-bottom: 5px;
+}
+#service .service-book a{
+    color: white;
+}
+#service li:hover{
+    text-decoration: underline;
+}
+/*service结束*/
 
-
+/*footer开始*/
+#footer #contact{
+    height: 82px;
+    background: #fa558f;
+}
+#footer .wrapper a{
+    color: white;
+    float: left;
+    line-height: 82px;
+}
+#footer .wrapper h4{
+    color: white;
+    float: right;
+    line-height: 82px;
+}
+/*footer结束*/
 
 
 

@@ -11,10 +11,6 @@ img{
 li{
     list-style: none;
 }
-body{
-    height: 2000px;
-}
-
 .wrapper{
     width: 1140px;
     height: 100%;

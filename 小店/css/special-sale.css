@@ -1,0 +1,21 @@
+#header{
+    background: url("../img/banner33.jpg") no-repeat center;
+    height: 250px;
+}
+#sale{
+    margin: 0;
+}
+#sale h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#sale img{
+    margin-right: 20px;
+    margin-bottom: 18px;
+}
+#good h3{
+    margin-bottom: 20px;
+}
+#footer #contact{
+    margin-top: 950px;
+}

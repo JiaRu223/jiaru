@@ -140,11 +140,12 @@ h1, #cart a{
     bottom: 420px;
 }
 .add{
-    width: 340px;
-    height: 190px;
-    position: absolute;
-    top: 260px;
-    left: 10px;
+    width: 330px;
+    height: 180px;
+    background: lightgray;
+    margin-top: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 .add input{
     text-indent: 10px;

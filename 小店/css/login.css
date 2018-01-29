@@ -1,0 +1,73 @@
+#header{
+    background: url("../img/banner33.jpg") no-repeat center;
+    height: 250px;
+}
+#login-container h2{
+    margin-top: 36px;
+}
+#login-container form{
+    margin-top: 28px;
+    float: left;
+}
+#login-container h5{
+    font-size: 20px;
+    color: dimgray;
+}
+#login-container #blank{
+    margin-bottom: 28px;
+}
+#login-container input{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    text-indent: 10px;
+    font-size: 20px;
+}
+#login-container .ipt{
+    margin-top: 20px;
+    width: 114px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#login-container form button{
+    background: orange;
+    color: white;
+    border: 0;
+    font-size: 20px;
+}
+#login-container button:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+#login-container a{
+    margin-top: 20px;
+    display: block;
+    color: dimgray;
+    text-decoration: underline;
+}
+#login-container #register{
+    float: right;
+}
+#login-container #register h3{
+    color: orange;
+}
+#login-container #register p{
+    width: 540px;
+    height: 42px;
+    color: dimgray;
+    margin-top: 20px;
+}
+#login-container #register button{
+    background: white;
+    border: 1px solid black;
+}
+#login-container #register button:hover{
+    background: orange;
+    color: white;
+    border: 0;
+}
+#footer #contact{
+    margin-top: 360px;
+}

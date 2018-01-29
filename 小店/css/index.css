@@ -202,7 +202,7 @@
      width: 1140px;
      height: 300px;
      background: white;
-     /*display: none;*/
+     display: none;
      margin-left: -190px;
  }
 #header #makeup:hover #submenu{
@@ -211,29 +211,40 @@
 #header #submenu{
     cursor: auto;
 }
+#header #submenu ul{
+    float: left;
+}
 #header #submenu li{
     background: none;
     color: black;
     clear: both;
-    padd-left: 1px;
-    width: 100px;
+    width: 150px;
     height: 30px;
     cursor: auto;
     font-size: 14px;
+    text-align: left;
+    margin-left: 15px;
+
 }
 #header #submenu li a{
     background: none;
     color: gray;
     font-size: 14px;
-    margin-top: 5px;
-    text-align: left;
+    /*margin-top: 5px;*/
+
 }
 #header #submenu li:hover{
     background-color: transparent;
 
 }
+#header #submenu a:hover{
+    color: orange;
+    text-decoration: underline;
+}
 #header .second-nav{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 

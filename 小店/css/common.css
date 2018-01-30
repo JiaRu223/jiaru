@@ -26,7 +26,7 @@ li{
 #header img{
     vertical-align: middle;
 }
-#header h1, #cart a{
+#header h1, #cart {
     color: white;
     text-align: center;
     line-height: 100px;
@@ -41,9 +41,9 @@ li{
 }
 #header .wrapper span{
     color: white;
-    position: relative;
-    left: 950px;
-    bottom: 22px;
+    position: absolute;
+    left: 1060px;
+    top:  74px;
     cursor: pointer;
 }
 #header .float{
@@ -70,7 +70,7 @@ li{
 }
 #header #nav{
     position: relative;
-    top: -8px;
+    top: 0px;
 }
 #header #nav li{
     float: left;

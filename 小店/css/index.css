@@ -2,55 +2,6 @@
     background: url("../img/banner.jpg") no-repeat center;
     height: 600px;
 }
-#header #top{
-    height: 100px;
-}
-#header img{
-    vertical-align: middle;
-}
-#header h1, #cart a{
-    color: white;
-    text-align: center;
-    line-height: 100px;
-}
-#header #login a{
-    color: white;
-    line-height: 100px;
-}
-#header #top p{
-    color: white;
-    cursor: pointer;
-}
-#header .wrapper span{
-    color: white;
-    position: relative;
-    left: 950px;
-    bottom: 22px;
-    cursor: pointer;
-}
-#header .float{
-    float: left;
-    width: 380px;
-    display: block;
-    height: 100px;
-    line-height: 100px;
-}
-#header #login:hover{
-    text-decoration: underline;
-}
-#header .wrapper #cart{
-    width: 280px;
-    height: 50px;
-    cursor: pointer;
-    float: right;
-    margin-top: 25px;
-    display: block;
-    background: black;
-    opacity: 0.5;
-    line-height: 50px;
-    text-align: center;
-}
-
 /*sale开始*/
 #new{
     height: 210px;
@@ -158,94 +109,9 @@
 }
 /*service结束*/
 
-/*footer开始*/
-#footer #contact{
-    height: 82px;
-    background: #fa558f;
-}
-#footer .wrapper a{
-    color: white;
-    float: left;
-    line-height: 82px;
-}
-#footer .wrapper h4{
-    color: white;
-    float: right;
-    line-height: 82px;
-}
-/*footer结束*/
 
-/*二级菜单*/
-#header #nav{
-    position: relative;
-    top: -20px;
-}
-#header #nav li{
-    float: left;
-    background: #fa558f;
-    width: 190px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer;
-}
-#header #nav a{
-    color: white;
-}
-#header #nav .selected{
-    background: #3c3b3b;
-}
-#header #nav li:hover{
-    background-color: #3c3b3b;
-}
-#header #nav #submenu{
-     width: 1140px;
-     height: 300px;
-     background: white;
-     display: none;
-     margin-left: -190px;
- }
-#header #makeup:hover #submenu{
-    display: block;
-}
-#header #submenu{
-    cursor: auto;
-}
-#header #submenu ul{
-    float: left;
-}
-#header #submenu li{
-    background: none;
-    color: black;
-    clear: both;
-    width: 150px;
-    height: 30px;
-    cursor: auto;
-    font-size: 14px;
-    text-align: left;
-    margin-left: 15px;
 
-}
-#header #submenu li a{
-    background: none;
-    color: gray;
-    font-size: 14px;
-    /*margin-top: 5px;*/
 
-}
-#header #submenu li:hover{
-    background-color: transparent;
-
-}
-#header #submenu a:hover{
-    color: orange;
-    text-decoration: underline;
-}
-#header .second-nav{
-    border-bottom: 1px solid lightgray;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 
 
 

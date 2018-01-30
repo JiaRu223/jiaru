@@ -1,7 +1,3 @@
-#header{
-    background: url("../img/banner33.jpg") no-repeat center;
-    height: 250px;
-}
 #login-container h2{
     margin-top: 36px;
 }
@@ -59,11 +55,18 @@
     color: dimgray;
     margin-top: 20px;
 }
-#login-container #register button{
+#login-container #register a{
     background: white;
     border: 1px solid black;
+    width: 108px;
+    height: 44px;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 44px;
+    color: black;
 }
-#login-container #register button:hover{
+#login-container #register a:hover{
     background: orange;
     color: white;
     border: 0;

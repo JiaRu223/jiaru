@@ -1,0 +1,72 @@
+#res h2{
+    margin-top: 36px;
+}
+#res .sim{
+    color: dimgray;
+}
+#info a{
+    color: black;
+}
+#info a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+#info .sim{
+    margin-top: 20px;
+}
+#info{
+    width: 555px;
+    height: 400px;
+    float: left;
+}
+#info label p{
+    display: inline-block;
+    width: 150px;
+    color: dimgray;
+}
+#info label input{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    text-indent: 10px;
+    font-size: 20px;
+    outline: none;
+}
+#info #button{
+    width: 444px;
+    height: 40px;
+    background: orange;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 64px;
+}
+#info #button:hover{
+    border: 1px solid black;
+    color: black;
+    background: transparent;
+    cursor: pointer;
+}
+
+#ensure{
+    width: 555px;
+    height: 248px;
+    float: right;
+}
+#ensure h3{
+    margin-top: 20px;
+    color: orange;
+}
+#ensure p{
+    margin-top: 20px;
+}
+#footer{
+    margin-top: 480px;
+}
+
+
+
+
+

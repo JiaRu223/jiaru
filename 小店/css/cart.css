@@ -1,0 +1,110 @@
+#my-cart{
+    background: #eae8eb;
+}
+#my-cart .wrapper{
+    padding-top: 56px;
+    height: 560px;
+}
+#my-cart img{
+    width: 134px;
+    height: 134px;
+    float: left;
+}
+#shop-cart{
+    width: 800px;
+    height: 520px;
+    margin: 0;
+    float: left;
+}
+.detail{
+    margin-top: 34px;
+    width: 840px;
+    height: 204px;
+}
+#shop-cart .close{
+    width: 28px;
+    height: 28px;
+    float: right;
+    cursor: pointer;
+}
+#shop-cart .cart-info{
+    margin-left: 30px;
+    float: left;
+}
+#shop-cart .money{
+    font-size: 20px;
+    margin-right: 56px;
+}
+#shop-cart input{
+    width: 84px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    text-indent: 10px;
+}
+#shop-cart .quality{
+    width: 625px;
+    height: 60px;
+    margin-top: 34px;
+    border-bottom: 1px solid black;
+}
+#shop-cart .onsale{
+    color: grey;
+    font-size: 14px;
+    margin-top: 24px;
+}
+#shop-cart .arrive{
+    float: right;
+}
+#list{
+    float: right;
+    width: 280px;
+    height: 380px;
+    border-left: 1px solid black;
+}
+#list #continue{
+    width: 180px;
+    height: 40px;
+    border: 0;
+    background: orange;
+    color: white;
+    border-radius: 8px;
+    margin-left: 56px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#list #continue:hover{
+    background: black;
+}
+#sale-cart{
+    margin-top: 42px;
+    margin-left: 18px;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    width: 262px;
+    height: 120px;
+}
+#list .dis{
+    margin-right: 100px;
+}
+#list h4{
+    display: inline;
+    margin-left: 18px;
+}
+#list #just{
+    margin-left: 0px;
+}
+#list #sub{
+    width: 216px;
+    height: 40px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    margin-left: 46px;
+    margin-top: 40px;
+}
+#list #sub:hover{
+    background: orange;
+}

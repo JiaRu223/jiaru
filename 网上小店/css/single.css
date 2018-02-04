@@ -1,0 +1,115 @@
+#content{
+    height: 1100px;
+    margin-top: 54px;
+}
+.image{
+    height: 570px;
+    width: 520px;
+    overflow: hidden;
+    float: left;
+}
+.image img{
+    width: 146px;
+    height: 130px;
+    border: 1px darkgrey solid;
+    padding: 3px;
+    margin-right: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+#main{
+    width: 475px;
+    height: 400px;
+    padding: 3px;
+    border: 1px darkgrey solid;
+}
+.detail{
+    float: left;
+    width: 570px;
+}
+.detail .intro{
+    color: dimgray;
+    font-size: 13px;
+    line-height: 20px;
+}
+.detail .price{
+    color: #fa558f;
+    margin: 20px 0;
+    font-size: 25px;
+}
+.detail input{
+    width: 54px;
+    height: 38px;
+    border: 1px solid dimgray;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.detail button{
+    width: 158px;
+    height: 42px;
+    background: dimgray;
+    color: white;
+    border-radius: 8px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.detail button:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+.detail .brand{
+    border-top: 1px solid orangered;
+    width: 572px;
+    height: 110px;
+    border-bottom: 1px solid orangered;
+}
+.brand .trade{
+    margin-top: 20px;
+}
+.brand .genre{
+    color: dimgray;
+}
+.brand .mold{
+    color: orangered ;
+}
+.detail h4{
+    margin: 24px 0;
+}
+#related-product{
+    margin-left: 10px;
+}
+#related{
+    background: #F3F3F3;
+    float: left;
+    width: 100%;
+    margin-top: 66px;
+}
+.related-product{
+    float: left;
+    margin-left: 20px;
+}
+.related-product h4{
+    margin-left: 28px;
+}
+.related-product img{
+    width: 255px;
+    height: 255px;
+}
+.related-product button{
+    background: dimgray;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    width: 110px;
+    height: 34px;
+    margin-top: 24px;
+    margin-left: 60px;
+}
+.related-product button:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
